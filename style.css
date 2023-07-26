@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+    margin: 60px auto;
+    margin-bottom: -2px;
+    width: 500px;
+    font-family: 'Poppins';
+    font-family: 'REM';
+    font-style: italic;
+    background-color: turquoise;
+    border-radius: 15px;
+}
+h1:hover {
+    transform: perspective(2deg);
+    transition: 0.6s;
+    width: 1500px;
+    background-color: black;
+    color: white;
+}
+.players a li{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: darkgreen;
+}
+.players a li:hover {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+
+label {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+
+.Adherants {
+    width: 250px;
+    margin: 60px auto;
+    font-weight: bold;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.Adherants select {
+    color: darkcyan;
+    background-color: beige;
+    border: 2px solid cyan;
+    border-radius: 12px;
+    font: 1em sans-serif;
+    font-family: 'REM';
+    font-style: oblique;
+}
+.pick {
+    text-align: center;
+}
+.pick h2 {
+    background-color: darkcyan;
+    width: 400px;
+    margin: 60px auto;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    color: white;
+    margin-bottom: 20px;
+}
+.pick label {
+    font-family: 'Poppins';
+    font-weight: bold;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+}
+.btn {
+    text-align: center;
+    margin-top: 49px;
+    padding: 10px auto;
+}
+.btn input {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid black;   
+}
+.btn button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid black;   
+}
+.footer {
+    display: flex;
+    margin-top: 150px;
+}
+.footer, svg, p{
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 1.1em;
+}
